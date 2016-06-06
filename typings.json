@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160517064839",
+    "angular-resource": "registry:dt/angular-resource#1.5.0+20160412142209",
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160524002506"
+  }
+}

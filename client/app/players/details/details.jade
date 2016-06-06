@@ -1,0 +1,35 @@
+link(rel="stylesheet" href="/client/app/players/details/details.css")
+
+h1.hcenter Player Details
+
+ul.hcenter(style="list-style: none")
+img(ng-src="{{vm.player.image}}", style="height:100px; width: 100px")
+
+li Name: {{vm.player.firstName}} {{vm.player.lastName}}
+li Age: {{vm.player.age}}
+li Sport: {{vm.player.sport}}
+li Position: {{vm.}}
+li Height: {{vm.player.height}}"
+li Weight: {{vm.player.weight}}lbs
+li Number: {{vm.player.number}}
+li Team: {{vm.player.teamName}}
+li College: {{vm.player.college}}
+li Nationality: {{vm.player.nationality}}
+
+div.hcenter.well.container(ng-show="vm.isEditing = false;"
+type:"button" style="margin-right: 5px") Go back
+button.btn.btn-info()
+ng-submit="updatePlayer()")
+br
+label Name
+input.form-control(ng-model="vm.isEditing" ng-)
+
+button.btn.btn-danger(type="button") Go Back
+button.btn.btn-success Submit
+
+form.hcenter.well.container(ng-show="vm.isEditing"
+ng-submit="update"
+
+h1 player details
+h3 {{vm.player}}
+button(ng-click="vm.remove(p)") Delete

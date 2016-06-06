@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+<!--Tells what part of html contains AngularJS-->
+
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>app</title>
+    <base href="/" />
+    <link ref="stylesheet" href=http://bootswatch.com/superhero/bootstrap.min.css/>
+  </head>
+  <body>
+    <h1>Great Players of the World</h1>
+
+    <ui-view></ui-view>
+
+    <script src="/scripts/angular/angular.min.js"></script>
+    <script src="/scripts/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/scripts/angular-resource/angular-resource.min.js"></script>
+
+    <script src="/client/shared/module.js"></script>
+    <script src="/client/app/home/home.module.js"></script>
+    <script src="/client/app/players/players.module.js"></script>
+
+    <script src="/client/app/home/home.controller.js"></script>
+
+    <script src="/client/app/players/players.service.js"></script>
+    <script src="/client/app/players/main/main.controller.js"></script>
+    <script src="/client/app/players/details/details.controller.js"></script>
+    <script src="client/app/players/create/create.controller.js"></script>
+  </body>
+</html>

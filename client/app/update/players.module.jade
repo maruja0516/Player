@@ -1,0 +1,21 @@
+
+
+h1 Player Details
+
+ul(style="list-style: none")
+li{{vm.player.firstName}}
+li{{vm.player.lastName}}
+li{{vm.player.age}}
+li{{vm.player.sport}}
+li{{vm.player.position}}
+li{{vm.player.height}}
+li{{vm.player.weight}}
+li{{vm.player.number}}
+li
+  img(ng-src="{{vm.player.image}}", style="height: 100px; width: 100px")
+  li {{vm.player.teamName}}
+  li {{vm.player.college}}
+  li {{vm.player.nationality}}
+
+  button.btn.btn-danger(ng-click="vm.remove()" style="margin-right: 5px") Delete
+  button.btn.btn-info(ng-click="vm.remove()")Edit
